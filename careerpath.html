@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>Career Paths</title>
+            <link rel="stylesheet" href="mycss.css">
+            <script src="script.js"></script>
+            
+        </head>
+            <body>
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="#">Home</a>
+                    <a href="#">Why should I become a Computer Science Major</a>
+                    <a href="#">Resources on how to learn about Computer Science</a>
+                    <a href="#">How to prepare to be a Computer Science major</a>
+                    <a href="#">The life of a Computer Science major in college</a>
+                    <a href="#">Computer Science Jobs</a>
+                    <a href="#">Why is Computer Science a good major to get a job for international students</a>
+                    <a href="#">Making a positive differnece in the world</a>
+                    <a href="#">Contact page</a>
+                  </div>
+                  
+                  <div id="main">
+                    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+                  </div>
+                <center>
+                    
+                    <h1>Career Paths</h1>
+                    <img src="img/CS2.jpg" alt="CS2" width="250" height="250">
+                    <img src="img/CS3.jpg" alt="CS3" width="250" height="250">
+                    <img src="img/CS4.jpg" alt="CS4" width="250" height="250">
+                    <img src="img/CS5.jpg" alt="CS5" width="250" height="250">
+                    <p>
+                        A career in computer science opens numerous career pathways. With just a bachelor’s degree, 
+                        a job seeker can get into coding and programming. But the employment options for computer science 
+                        majors extend beyond that. They can go into technical writing, software development and engineering, 
+                        systems management, network administration, and even cybersecurity.
+                    </p>
+                    <br>
+                </center>
+                <center>
+                    <div>
+                        
+                        <h1><pre>Computer and Information Systems Manager</pre></h1>
+                        <h2>
+                            <pre>
+                            Individuals in these roles plan, coordinate, and direct computer-related activities in an
+                            organization. They help determine the information technology goals for the organization 
+                            and are responsible for implementing computer systems to meet these goals. 
+                            This career requires additional experience beyond a bachelor’s degree, Hescott says, which
+                            is why it’s a popular career option for those with a master’s in computer science.
+                            </pre>
+                         </h2>
+                            <p>Average Salary: $146,360 per year</p>
+                    </div>
+                    <div>
+                        <h1>Database Administrator</h1>
+                        <h2>Database administrators, also called DBAs, ensure that organizational data is properly stored and organized
+                             so that it is both secure and easily accessible to data scientists and data analysts. These individuals develop
+                              new databases and maintain existing databases, making changes as needed to boost efficiency. Database administrators 
+                              are expected to be proficient in common database management software and database languages such as SQL and need to 
+                              possess strong analytical and problem-solving skills.
+                        </h2>
+                        <p>Average Salary: $93,750 per year</p>
+                        
+                        <h1>Software Development Engineer</h1>
+                        <h2>The most popular job that graduates move into is software development, Hescott says. 
+                            Software development engineers, also called SDEs, code and build software in a variety 
+                            of industries, either independently at startups or as part of a team within larger organizations, 
+                            such as at Google or Amazon.
+                        </h2>
+                    </div>
+                    
+                        <h1>Data Scientist</h1>
+                        <h2>Data scientists design data modeling processes to create algorithms and predictive models and perform 
+                        custom analyses in a variety of industries. Because data science is a rapidly growing field, skilled 
+                        professionals are scarce, leading organizations to rely on professionals with advanced degrees, Hescott says. 
+                        </h2>
+                        <p>Average Salary: $113,309 per year</p>
+                    </div>
+
+                        <h1>Information Security Analyst</h1>
+                        <h2>Information security analysts plan and carry out security measures to protect an organization’s computer networks 
+                        and systems. Hescott identifies this role as one example of a career that requires a graduate degree. “We’re starting 
+                        to see more undergraduate programs in cybersecurity pop up, but generally these roles require a master’s degree,” he says.
+                        </h2>
+                        <p>Average Salary: $99,730 per year</p>
+                        
+                </center>
+                <script>var acc = document.getElementsByClassName("accordion");
+                    var i;
+                    
+                    for (i = 0; i < acc.length; i++) {
+                      acc[i].addEventListener("click", function() {
+                        this.classList.toggle("active");
+                        var panel = this.nextElementSibling;
+                        if (panel.style.maxHeight) {
+                          panel.style.maxHeight = null;
+                        } else {
+                          panel.style.maxHeight = panel.scrollHeight + "px";
+                        } 
+                      });
+                    }</script>
+                            </body>
+                    </html>
