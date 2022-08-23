@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="mycss.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+  <div id="mySidenav" class="sidenav">
+    <a href="home.html">Home</a>
+    <a href="Page2.html">Why should I become a Computer Science Major</a>
+    <a href="Resources.html">Resources on how to learn about Computer Science</a>
+    <a href="Q4.html">How to prepare to be a Computer Science major</a>
+    <a href="what_to_expect.html">The life of a Computer Science major in college</a>
+    <a href="careerpath.html">Computer Science Jobs</a>
+    <a href="Page8.html">Why is Computer Science a good major to get a job for international students</a>
+    <a href="difference.html">Making a positive differnece in the world</a>
+    <a href="Contact.html">Contact page</a>
+  </div>
+      
+      <div id="main">
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+      </div>
+<center>
+<h class="Q4">How to prepare to be a Computer Science major</h>
+
+
+  <div>
+    
+
+<button class="accordione" >Determine What Computer Science Means to You</button>
+<div class="panele">
+  <p class="note">To prepare your self to be a computer sciense first you have to find out what computer science mean to you, 
+    what ever computer science mean to you, hold on it carefully because it will give yu the perseverance you need when things becom tough(when,not if)and 
+    find out what your speciallized 
+    interested in computer science is, whether the algorithm, computer security or software engineering and fully imprese yourself
+  </p>
+</div>
+
+<button class="accordione">Know Your Resources</button>
+<div class="panele">
+  <p class="note">If you're looking for even more supplemental resources before taking courses in a university, 
+    look into the cheaper e-book versions of textbooks used at various universities. 
+    The Internet has an abundance of resources and information. Use them to your benefit!</p>
+</div>
+
+<button class="accordione">Train Your Mental Discipline</button>
+<div class="panele">
+  <p class="note">It takes a lot of practice to become good in programming, so if you want to succeed in university, you need start early. Long hours spent staring at a screen, planning your code, 
+    or analyzing a problem set can be uncomfortable. Create a programming schedule, then follow it. To enter into The Flow,
+     identify your programming habits and triggers. Do what feels right for you, whether that's working while listening to music through headphones, sipping on a hot cup of coffee,
+     or studying or working in an area where other people are also studying (like a library).</p>
+</div>
+<button class="accordione">Don't expect to learn everything during courses</button>
+<div class="panele">
+  <p class="note">All of the IT and computer science courses are fantastic. They will not, however, cover every skill required for employment.
+    For example, if you want to work in software development, you might need to learn more programming languages than that. 
+    You may have to figure out and learn new programming languages on your own if there is no teaching. Searching for tutorials for
+    popular online programming languages such as Python, MATLAB, Java, and others—some of which are even free.</p>
+</div>
+<button class="accordione">IStudying the night before a deadline will NOT work</button>
+<div class="panele">
+  <p class="note">Try to complete your assignment well before the deadline; ideally, prepare them a week in advance. Otherwise, you'll become exhausted,
+    your code will fail, and you'll fail the assignment. Computer science and information technology are two fields where it is critical to keep working 
+    throughout the semester because there will be times when you will need to take a break to 
+   better understand why something isn't working. As a courtesy to yourself, work throughout the semester.</p>
+</div>
+         
+ 
+
+      
+<script>
+var acc = document.getElementsByClassName("accordione");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panele = this.nextElementSibling;
+    if (panele.style.display === "block") {
+      panele.style.display = "none";
+    } else {
+      panele.style.display = "block";
+    }
+  });
+}
+function openNav() {
+document.getElementById("mySidenav").style.width = "250px";
+document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+document.getElementById("mySidenav").style.width = "0";
+document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+
+</body>
+</html>

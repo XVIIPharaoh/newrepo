@@ -3,9 +3,6 @@ body {
     
 }
 
-img{
-    border-radius: 50%;
-}
 
 h1 {
     color: white;
@@ -108,13 +105,6 @@ body {
   
 }
 
-
-.column
-{
-  float: left;
-  width: 33.33%;
-  padding: 5px;
-}
 .row::after
 {
   content: "";
@@ -164,34 +154,46 @@ body {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
-#leftbox {
-  float:left; 
-  width:33%;
-  height:280px;
+.accordione {
+  background-color: rgb(104, 98, 98);
+  color: #444;
+  cursor: pointer;
+  padding: 15px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+  transition: 0.4s;
+  color:#f9f9f9;
 }
-#middlebox{
-  float:left; 
-  width:33%;
-  height:280px;
+
+.active, .accordione:hover {
+  background-color: rgb(87, 77, 77); 
 }
-#rightbox{
-  float:right;
-  width:33%;
-  height:280px;
+
+.panele {
+  padding: 0 18px;
+  display: none;
+  background-color: rgb(43, 40, 40);
+  overflow: hidden;
+  font-family: "Lato", sans-serif;
+  font-size: 35px;
 }
-#leftbox1 {
-  float:left; 
-  width:33%;
-  height:280px;
+.note{
+
+  text-align:left;
+font-size: 20px;
 }
-#middlebox2{
-  float:left; 
-  width:33%;
-  height:280px;
+.Q4{
+  
+  text-align:center;
+  font-size: 30px;
+  
 }
-#rightbox3{
-  float:right;
-  background:blue;
-  width:33%;
-  height:280px;
+.column
+{
+  float: left;
+  width: 33.33%;
+  padding: 5px;
 }
